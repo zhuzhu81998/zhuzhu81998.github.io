@@ -73,3 +73,10 @@ enableEmoji = true
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[module]
+[[module.mounts]]
+disableWatch = false
+source = 'attachments'
+target = 'static/attachments'
+
