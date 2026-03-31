@@ -74,4 +74,5 @@ title = "Debugging My Brain"
 #     { ko-fi = "https://ko-fi.com/username" },
 #     { codeberg = "https://codeberg.org/username"},
 #     { printables = "https://www.printables.com/@username"},
+     { rss = "/index.xml" }
    ]
