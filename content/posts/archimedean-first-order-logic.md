@@ -1,5 +1,5 @@
 ---
-title: Trying to understand that Archimedean Property is not expressible in the first-order logic
+title: Trying to understand that Archimedean Property is not expressible in first-order logic
 date: 2026-04-01
 draft: false
 description:
