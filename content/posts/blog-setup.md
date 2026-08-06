@@ -51,7 +51,7 @@ But it did not work.
 
 Any request to `site.com/attachments/*` failed with 404. I tried restarting everything, putting `[module]` on top of it. I even followed ChatGPT's suggestion of installing Go and creating a go module because "hugo modules are go modules". It was not until I had spent way too much time (more than I spent on actual relevant work) when I realized that the problem was the fact that I put the config snippet inside `module.toml` and it really should be inside `hugo.toml` (also inside `config/_default`).
 
-You see, I assumed the files were purely  for organization and they are equivalent to writing everything inside one config file (similar to how I always treated the nginx configs). But at least in this case, my assumption was not true. Note that I still do not know how Hugo config is supposed to work, I just found out that putting it in `hugo.toml` works, and left it at that (I just want to write a blog).
+You see, I assumed the files were purely for organization and they are equivalent to writing everything inside one config file (similar to how I always treated the nginx configs). But at least in this case, my assumption was not true. Note that I still do not know how Hugo config is supposed to work, I just found out that putting it in `hugo.toml` works, and left it at that (I just want to write a blog).
 
 Now it is no longer 404 for existing files, but any newly added files require a restart of the Hugo dev server. The cause is I did not add
 ```toml
