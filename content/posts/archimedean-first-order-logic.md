@@ -1,6 +1,7 @@
 ---
 title: Trying to understand that Archimedean Property is not expressible in first-order logic
 date: 2026-04-01
+lastmod: 2026-08-08
 draft: false
 description:
 tags:
@@ -90,6 +91,6 @@ If you can't express $\mathrm{Nat}$ in first-order logic, you can't really expre
 
 Another attempt can be to simply include the predicate $\mathrm{Nat}$ itself in the theory. For example, maybe we can include the Peano axioms? As a matter of fact, [Robinson (1949)](https://doi.org/10.2307/2266510) proved that you can define integers (and thus natural numbers) within the rational numbers using first-order logic only.
 
-The catch is, there is nothing that says that the "natural numbers" defined by this first-order logic have to be same as our standard numerals used in $(1+1+\dots +1)x<1$. It is possible (and indeed what we proved says it is the case) that the "added" numerals are just "copies" which share essentially the same properties as the standard ones in the non-standard model we defined. The phrase "natural numbers" could mean very different objects.
+The catch is, there is nothing that says that the "natural numbers" defined by this first-order logic have to be same as our standard numerals used in $(1+1+\dots +1)x<1$. It is possible (and indeed what we proved says it is the case) that the nonstandard model may contain additional elements satisfying $\mathrm{Nat(n)}$ that are not denoted by any of the standard numerals $0,1,1+1, \dots$. From inside the model these elements behave as natural numbers, even though externally they are larger than every standard natural number.
 
 At least that is what I understood XD.
