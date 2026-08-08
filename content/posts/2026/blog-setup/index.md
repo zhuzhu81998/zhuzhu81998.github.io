@@ -1,6 +1,7 @@
 ---
 title: Setting up a blog with Obsidian, Hugo, Blowfish, and Github Pages
 date: 2026-03-28
+lastmod: 2026-08-08
 draft: false
 description: ""
 tags:
@@ -13,6 +14,8 @@ categories: []
 series: []
 slug: ""
 ---
+> Edit: This is an old version. Since then, I have switched to using [hugo page bundle](https://gohugo.io/content-management/page-bundles/) so that inserted pictures etc. are in the same folder. This avoids the whole complicated story about modules below. I dont remember the reason I didn't do this back then.
+
 Suddenly wanted to start a blog again (after, what? 3 times where I set it up but didn't actually write anything).
 
 But instead of using e.g. WordPress like in the good old times, this time I decided to go "*static*". I guess nowadays I prefer simplicity, having seen way many sites with way too much (client-side and server-side) JavaScript and dynamic elements (like come on, how on earth does a wiki page use up 1 GB of RAM???)
@@ -35,7 +38,7 @@ One of the reasons I wanted static instead of, say, WordPress was that I wanted 
 
 ## Integration
 One of my major targets was an easy workflow. That in particular includes inserting pictures in an article. I don't want to have to manually push a picture to a certain location and then manually reference it in the markdown file. Obsidian lets you just pasting the picture inline and it handles where to put the actual file and the referencing etc. I was very pleased as I found that it also lets you configure the location and the style of the link (relative or absolute):
-![](../../attachments/Pasted%20image%2020260328182355.png)
+![](Pasted%20image%2020260328182355.png)
 
 But to integrate it with Hugo, it required some work. As I am not familiar with Hugo and its configuration system, it took me quite a well to get it to work correctly. The first problem I had to solve was that Hugo wants you to put the files in the `static/` folder. But Hugo does not, by default, let you reference the file using `static/...` . For example, if you have `static/images/a.jpg`, you would have to use `/images/a.jpg` from markdown file to have the picture shown correctly on the Hugo-regenerated site.
 
