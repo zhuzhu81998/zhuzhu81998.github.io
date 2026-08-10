@@ -39,7 +39,7 @@ $$
  (\underbrace{1 + \cdots + 1}_{n \text{ times}})\cdot x < 1 \quad \text{for all natural numbers } n.
 $$
 
-A proof can be found in Ex. 5.4 of [Halbeisen and Krapf, 2025](https://doi.org/10.1007/978-3-031-85106-3). But let us briefly write it down here as well:
+A proof can be found in Ex. 5.4 of [Halbeisen and Krapf (2025)](https://doi.org/10.1007/978-3-031-85106-3). But let us briefly write it down here as well:
 
 Define "natural numbers":
 $$
