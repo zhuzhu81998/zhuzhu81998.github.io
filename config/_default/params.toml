@@ -18,7 +18,7 @@ enableStyledScrollbar = true # disable to use native scrollbar style (defaults t
 replyByEmail = false
 
 # mainSections = ["section1", "section2"]
-# robots = ""
+robots = "noindex, nofollow"
 
 disableImageOptimization = false
 disableImageOptimizationMD = false
